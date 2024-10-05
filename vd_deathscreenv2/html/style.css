@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    overflow: hidden;
+}
+
+/* body{
+   background: linear-gradient(45deg, rgba(155, 0, 0, 0.603), rgba(255, 0, 0, 0.301), rgba(155, 0, 0, 0.603));
+   height: 100vh;
+} */
+
+.background {
+   background: linear-gradient(45deg, rgba(155, 0, 0, 0.603), transparent, rgba(155, 0, 0, 0.603));
+   height: 100vh;
+   width: 100vw;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.hd{
+    line-height: 5vh;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.p{
+    line-height: 3vh;
+    text-align: center;
+    margin-top: 1vh;
+}
+ img{
+    margin-top: -3vh;
+ }
+
+ .timer{
+    margin-top: 3vh;
+    line-height: 3vh;
+ }
+
+.container-respawn{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50vh;
+    margin-top: 5vh;
+    gap: 1.5vh;
+}
+
+ .respawn{
+    line-height: 1.3vh;
+    text-align: left;
+ }
+
+ .r{
+    color:  white;
+    font-size: 1.5rem; 
+    padding: 0.5vh 1.5vh 0.5vh 1.5vh;
+    background: #04ff0048;
+    outline: 1px solid #05FF00;
+    width: fit-content;
+    border-radius: 0.5vh;
+    font-weight: bold;
+ }
+
+ .container-hospital{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: -50vh;
+    margin-top: -4.3vh;
+    gap: 1.5vh;
+}
+
+ .hospital{
+    line-height: 1.3vh;
+    text-align: right;
+ }
+
+ .h{
+    color:  white;
+    font-size: 1.5rem; 
+    padding: 0.5vh 1.5vh 0.5vh 1.5vh;
+    background: #ff000048;
+    outline: 1px solid #ff0000;
+    width: fit-content;
+    border-radius: 0.5vh;
+    font-weight: bold;
+ }
+
+ .blur{
+    height: 14vh;
+    width: 15vw;
+    background-color: rgb(255, 255, 255);
+    filter: blur(120px);
+ }
